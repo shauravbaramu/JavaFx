@@ -11,7 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="800.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="360.0">
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="360.0" style="-fx-background-color: white;" styleClass="Loginform" stylesheets="@styles.css">
          <children>
             <Label alignment="CENTER" layoutX="64.0" layoutY="87.0" text="Welcome Back!" textFill="#6fc1ff">
                <font>
@@ -64,9 +64,9 @@
             </Label>
          </children>
       </Pane>
-      <Pane layoutX="360.0" layoutY="-7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="446.0">
+      <Pane layoutX="356.0" layoutY="-7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="450.0" style="-fx-background-color: white;" styleClass="Design" stylesheets="@styles.css">
          <children>
-            <Circle fill="DODGERBLUE" layoutX="319.0" layoutY="272.0" radius="305.0" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="288.0" layoutY="271.0" radius="305.0" strokeType="INSIDE" />
             <Label alignment="CENTER" layoutX="200.0" layoutY="98.0" text="my" textFill="WHITE">
                <font>
                   <Font name="Segoe UI Light" size="25.0" />
