@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -14,6 +15,7 @@ public class HelloApplication extends Application {
 
         Scene scene = new Scene(fxmlLoader.load(), 800, 530);
         scene.getStylesheets().add("styles.css");
+        stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("myResume Login");
         stage.setScene(scene);
         stage.show();
