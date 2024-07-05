@@ -6,6 +6,6 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="499.0" prefHeight="530.0" prefWidth="301.0" />
+      <Pane layoutX="471.0" prefHeight="530.0" prefWidth="330.0" style="-fx-background-color: white;" />
    </children>
 </AnchorPane>
