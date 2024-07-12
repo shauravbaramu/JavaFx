@@ -33,6 +33,7 @@ public class HelloApplication extends Application {
         launch();
     }
 
+    // Method for close button
     public void close_app(MouseEvent mouseEvent) {
         System.exit(0);
     }
